@@ -18,7 +18,8 @@ module.exports = {
       title: 'template',
       template: './src/index.html',
       inject: 'body'
-    })
+    }),
+    new Dotenv()
   ],
   module: {
     rules: [
